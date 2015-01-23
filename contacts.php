@@ -6,7 +6,7 @@
 <p style="font-size:24px; margin-bottom:5px;">Контакты</p>
 
 <p style="margin-top:15px;">Телефон: 8 (495) 134 45 17
-<br>E-mail: info@omegaedu.ru</p>
+<br>E-mail: omegaedu@gmail.com</p>
 
 <p style="margin-bottom:2px;">За работу с клиентами и партнерами отвечает:</p>
 <div style="display:inline-block; vertical-align:top; margin-right:5px;"><img style="width:100px;" class="img-circle" src="img/sidkovd.png"></div>
@@ -47,7 +47,7 @@ VK.Widgets.Group("vk_groups", {mode: 0, width: "940", height: "255", color1: 'FF
 </div>
 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
 <p style="margin-top:16px; margin-bottom:0px; font-size:21px;">8 (495) 134 45 17</p>
-<p style="margin-top:12px; margin-bottom:0px; font-size:15px;">info@omegaedu.ru</p>
+<p style="margin-top:12px; margin-bottom:0px; font-size:15px;">omegaedu@gmail.com</p>
 </div>
 </div>
 

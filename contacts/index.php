@@ -3,7 +3,7 @@
 <div style="border:2px solid #ccc; border-radius:15px; padding:20px 30px 20px 30px; margin-top:25px;">
 <p style="font-size:24px; margin-bottom:5px;">Контакты</p>
 
-<p style="margin-top:15px;">Телефон: 8 (495) 134 45 17<br>E-mail: info@omegaedu.ru</p>
+<p style="margin-top:15px;">Телефон: 8 (495) 134 45 17<br>E-mail: omegaedu@gmail.com</p>
 
 <p style="margin-bottom:2px;">За работу с клиентами и партнерами отвечает:</p>
 <div style="display:inline-block; vertical-align:top; margin-right:5px;"><img style="width:100px;" class="img-circle" src="/img/dovzhik_.jpg"></div>

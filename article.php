@@ -103,7 +103,7 @@ VK.Widgets.Group("vk_groups", {mode: 0, width: "940", height: "255", color1: 'FF
 </div>
 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
 <p style="margin-top:16px; margin-bottom:0px; font-size:21px;">+7 (499) 403−32−72</p>
-<p style="margin-top:12px; margin-bottom:0px; font-size:15px;">info@omegaedu.ru</p>
+<p style="margin-top:12px; margin-bottom:0px; font-size:15px;">omegaedu@gmail.com</p>
 </div>
 </div>
 
