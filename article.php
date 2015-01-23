@@ -80,7 +80,7 @@ VK.Widgets.Comments("vk_comments", {limit: 5, width: "876", attach: "*"});
 <form class="form-inline" style="margin-bottom:10px;">
 <input class="form-control" type="text" id="r-name1" name="r-name1" placeholder="Ваше имя" />
 <input style="margin-left:10px;" class="form-control" type="text" id="r-mail1" name="r-mail1" placeholder="E-mail" />
-<a style="margin-left:10px;" onclick="$('#r-txt1').text('Вы подписаны!'); $.post('r.php', { name : $('#r-name1').val(), mail : $('#r-mail1').val() });" class="bttn">Подписаться на рассылку</a>
+<a style="margin-left:10px;" onclick="$('#r-txt1').text('Спасибо!'); $.post('r.php', { name : $('#r-name1').val(), mail : $('#r-mail1').val() });" class="bttn">Подписаться на рассылку</a>
 <span id="r-txt1" class="text-error" style="margin-left:5px;"></span>
 </form>
 </div>
