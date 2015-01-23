@@ -41,7 +41,8 @@
         <form class="form-inline" style="margin-bottom:10px;">
             <input class="form-control" type="text" id="r-name1" name="r-name1" placeholder="Ваше имя" />
             <input style="margin-left:10px;" class="form-control"class="form-control" type="text" id="r-mail1" name="r-mail1" placeholder="E-mail" />
-            <a style="margin-left:10px;" onclick="$('#r-txt1').text('Спасибо!'); $.post('r.php', { name : $('#r-name1').val(), mail : $('#r-mail1').val() });" class="bttn">Подписаться на рассылку</a>
+            <input style="margin-left:10px;" class="form-control"class="form-control" type="text" id="r-tel1" name="r-tel1" placeholder="+7-123-4567890" />
+            <a style="margin-left:10px;" onclick="$('#r-txt1').text('Спасибо!'); $.post('r.php', { name : $('#r-name1').val(), mail : $('#r-mail1').val(), tel : $('#r-tel1').val() });" class="bttn">Подписаться на рассылку</a>
             <span id="r-txt1" class="text-error" style="margin-left:5px;"></span>
         </form>
     </div>
