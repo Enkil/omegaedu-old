@@ -1,6 +1,6 @@
 <div style="margin-top:30px; border:2px solid #08c; border-radius:15px; text-align:center; padding-bottom:14px;">
 <i class="fa fa-envelope" style="position:relative; top:-20px; padding:0 12px; color:#08c; background-color:#fff; font-size:36px;"></i>
-<p style="margin-top:-12px;">Подпишитесь на нашу почтовую расслыку и начните получать полезные материалы для подготовки к ЕГЭ:</p>
+<p style="margin-top:-12px;">Оставьте заявку и сделайте первый шаг к успешной сдачи ЕГЭ:</p>
 <form class="form-inline" style="margin-bottom:10px;">
 <input class="form-control" type="text" id="r-name1" name="r-name1" placeholder="Ваше имя" />
 <input style="margin-left:10px;" class="form-control" type="text" id="r-mail1" name="r-mail1" placeholder="E-mail" />
