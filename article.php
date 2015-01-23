@@ -74,16 +74,18 @@ VK.Widgets.Comments("vk_comments", {limit: 5, width: "876", attach: "*"});
 </center>
 </div>
 
-<div style="margin-top:30px; border:2px solid #08c; border-radius:15px; text-align:center; padding-bottom:14px;">
-<i class="fa fa-envelope" style="position:relative; top:-20px; padding:0 12px; color:#08c; background-color:#fff; font-size:36px;"></i>
-<p style="margin-top:-12px;">Оставьте заявку и сделайте первый шаг к успешной сдаче ЕГЭ:</p>
-<form class="form-inline" style="margin-bottom:10px;">
-<input class="form-control" type="text" id="r-name1" name="r-name1" placeholder="Ваше имя" />
-<input style="margin-left:10px;" class="form-control" type="text" id="r-mail1" name="r-mail1" placeholder="E-mail" />
-<a style="margin-left:10px;" onclick="$('#r-txt1').text('Спасибо!'); $.post('r.php', { name : $('#r-name1').val(), mail : $('#r-mail1').val() });" class="bttn">Подписаться на рассылку</a>
-<span id="r-txt1" class="text-error" style="margin-left:5px;"></span>
-</form>
-</div>
+    <div style="margin-top:25px; border:2px solid #08c; border-radius:15px; text-align:center; padding-bottom:14px;">
+        <i class="fa fa-envelope" style="position:relative; top:-20px; padding:0 12px; color:#08c; background-color:#fff; font-size:36px;"></i>
+        <p style="margin-top:-12px;">Оставьте заявку и сделайте первый шаг к успешной сдаче ЕГЭ:</p>
+        <form class="form-inline" style="margin-bottom:10px;">
+            <input class="form-control" type="text" id="r-name1" name="r-name1" placeholder="Ваше имя" />
+            <input class="form-control" type="email" id="r-mail1" name="r-mail1" placeholder="E-mail" />
+            <input class="form-control" type="text" id="r-tel1" name="r-tel1" placeholder="+7-123-4567890" />
+            <a onclick="$('#r-txt1').text('Спасибо!'); $.post('r.php', { name : $('#r-name1').val(), mail : $('#r-mail1').val(), tel : $('#r-tel1').val() });" class="bttn">Оставить заявку</a>
+            <span id="r-txt1" class="text-error" style="margin-left:5px;"></span>
+        </form>
+    </div>
+
 <center>
 <div id="vk_groups" style="margin-top:30px; margin-bottom:30px;"></div>
 <script type="text/javascript">
