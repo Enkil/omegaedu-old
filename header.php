@@ -64,7 +64,7 @@
 	<div class="container" id="content">
 		<div class="row" style="margin-top:20px; margin-bottom:25px;">
 			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-				<a class="image" href="http://omegaedu.ru/"><img src="/img/logo_3.png" style="width:175px; margin-left:15px;" /></a>
+				<a class="image" href="/"><img src="/img/logo_3.png" style="width:175px; margin-left:15px;" /></a>
 				<p style="font-weight:normal; font-size:13px; line-height:16px; margin-top:0px; margin-bottom:0px; margin-left:15px; color:#777;">Подготовка к вузам Москвы</p>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
