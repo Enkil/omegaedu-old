@@ -73,7 +73,7 @@
 					<div style="margin-left:45px;"><a <? if($activepage=='franch') echo('class="active"'); ?> href="omega.pdf">Франчайзинг</a></div>
 				</div>
 				<div class="topmenudown">
-					<div><a <? if($activepage=='base') echo('class="active"'); ?> href="/base/">База знаний</a></div>
+					<div><a <? if($activepage=='news') echo('class="active"'); ?> href="/news/">Новости</a></div>
 					<div style="margin-left:38px;"><a <? if($activepage=='timetable') echo('class="active"'); ?> href="/timetable/">Расписание</a></div>
 					<div style="margin-left:38px;"><a <? if($activepage=='teachers') echo('class="active"'); ?> href="/teachers/">Преподаватели</a></div>
 					<div style="margin-left:38px;"><a <? if($activepage=='contacts') echo('class="active"'); ?> href="/contacts/">Контакты</a></div>

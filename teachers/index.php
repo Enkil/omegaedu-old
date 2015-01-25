@@ -1,6 +1,6 @@
-<?php
-$activepage='teachers'; include('../header.php');
-?>
+<?php $activepage='teachers'; include('../header.php'); ?>
+
+
 	<div class="row">
 		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 text-left">
 			<h1>Наши преподаватели</h1>

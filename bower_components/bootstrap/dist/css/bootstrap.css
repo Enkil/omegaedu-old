@@ -6565,3 +6565,14 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/* Custom css*/
+
+.top-margin {
+  margin-top: 20px;
+}
+
+.vertical-align{
+  display: flex;
+  align-items: center;
+}
