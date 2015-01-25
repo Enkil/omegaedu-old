@@ -1,0 +1,21 @@
+{
+  "name": "omegaedu.ru-old",
+  "version": "2.0",
+  "authors": [
+    "Igor Timohin <itimohin@NET-SIMPLE.RU>"
+  ],
+  "description": "recoding govmosite",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "components-font-awesome": "~4.2.0"
+  }
+}
