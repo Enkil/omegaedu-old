@@ -2,79 +2,250 @@
 $activepage='teachers'; include('../header.php');
 ?>
 	<div class="row">
-		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 text-left">
+		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 text-left">
 			<h1>Наши преподаватели</h1>
 		</div>
 	</div>
-	<style>
-	.faces img {
-		width: 220px;
-		height: auto;
-		border: 5px solid #428bca;
-		border-radius: 20px;
-	}
-	</style>
-	<div class="row faces" style="margin-top:25px;">
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-			
+	<br/>
+
+	<!--	Teachers row-->
+	<div class="row equal">
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img class="img-responsive img-rounded" src="/img/teachers/Djakova-s.jpg" alt="...">
+				<div class="caption">
+					<h2>Предмет: Русский язык</h2>
+					<h3>Елена Сергеевна Дьякова</h3>
+					<p>Образование: РГПУ им. А.И.Герцена, филологический факультет</p>
+					<p>Преподаватель высшей категории. В настоящее время преподаёт в «Центре экологического образования» лицее №389</p>
+					<p>Максимальный балл выпускников: 92/96</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left">
-			<h2>ФИО</h2>
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img class="img-responsive img-rounded" src="/img/teachers/KuleshovEV.jpg" alt="...">
+				<div class="caption">
+					<h2>Предмет: Русский язык/Литература</h2>
+					<h3>Кулешов Евгений Витальевич</h3>
+					<p>Образование: РРГПУ им. А.И. Герцена филологический факультет, аспирантура РГПУ им. А.И. Герцена.</p>
+					<p>Преподаватель высшей категории. В настоящее время преподаёт в академической гимназии при СПбГУ. Ранее преподавал в физико-математическом лицее №30, в Аничковом лицее,в Санкт-Петербургском государственном университете культуры и искусств. Автор более 40 научных публикаций (фольклористика, история литературы).</p>
+					<p>Максимальный балл выпускников: 90/96</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left">
-			<h3>Предмет</h3>
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img class="img-responsive img-rounded" src="/img/teachers/Tushnova-s.jpg" alt="...">
+				<div class="caption">
+					<h2>Предмет: Математика</h2>
+					<h3>Елена Александровна Тушнова</h3>
+					<p>АГПУ, математический факультет.</p>
+					<p>Преподаватель высшей категории. Заслуженный учитель России. В настоящее время преподаёт в «Центре экологического образования» лицее №389.</p>
+					<p>Максимальный балл выпускников: 87</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-left">
-			<h3>Образование</h3>
-		</div>
-		
+
 	</div>
-	
-	<div class="row faces" style="margin-top:25px;">
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-			<img src="/teacher/teach4.jpg">
-			<h3>Тихонова Анна Сергеевна</h3>
-			<h4>физика</h4>
+
+	<!--	Teachers row-->
+	<div class="row">
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img class="img-responsive img-rounded" src="/img/teachers/Amelin-s.jpg" alt="...">
+				<div class="caption">
+					<h2>Предмет: Математика</h2>
+					<h3>Дмитрий Вячеславович Амелин</h3>
+					<p>Образование: РГПУ им. А.И. Герцена, факультет математики, аспирантура РГПУ им. А.И. Герцена.</p>
+					<p>В настоящее время преподаёт в авторской инновационной школе «Унисон». Ранее преподавал в СПб СВУ МВД РФ. Автор 8 научных публикаций по методике преподавания математики.</p>
+					<p>Максимальный балл выпускников: 87</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-			<img src="/teacher/teach1.jpg">
-			<h3>Дементьева Ксения Дмитриевна</h3>
-			<h4>русский и литература</h4>	
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img class="img-responsive img-rounded" src="/img/teachers/lavrov.jpg" alt="...">
+				<div class="caption">
+					<h2>Предмет: математика (угл.)/информатика</h2>
+					<h3>Константин Юрьевич Лавров</h3>
+					<p>СПбГУ математико-механический факультет, аспирантура СПбГУ.</p>
+					<p>Преподаватель высшей категории. В настоящее время преподаёт в академической гимназии при СПбГУ, в СПбГУ на кафедре общей математики и информатики математико-механического факультета, на подготовительных курсах СПбГУ.Автор книги «Олимпиады математико-механического факультета для абитуриентов». Эксперт и член апелляционной комиссии ЕГЭ по математике.</p>
+					<p>Максимальный балл выпускников: 92/94</p>
+				</div>
+			</div>
 		</div>
-		
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-			<img src="/teacher/teach7.jpg">
-			<h3>Демчук Денис Борисович</h3>
-			<h4>физика и математика</h4>
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img class="img-responsive img-rounded" src="/img/teachers/orlov.jpg" alt="...">
+				<div class="caption">
+					<h2>Предмет: Математика</h2>
+					<h3>Владимир Викторович Орлов</h3>
+					<p>ЛГПУ им. А.И. Герцена, факультет математики</p>
+					<p>Доктор педагогических наук, профессор. Преподаватель высшей категории.Автор ряда учебных пособий по математике для школьников и для студентов. В настоящее время преподаёт в РГПУ им. А.И. Герцена, кафедра методики обучения математике факультета математики. Эксперт ЕГЭ.</p>
+					<p>Максимальный балл выпускников: 87</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-			<img src="/teacher/teach9.jpg">
-			<h3>Дементьева Ксения Дмитриевна</h3>
-			<h4>русский и литература</h4>	
-		</div>
-		
+
 	</div>
-	<div class="row faces" style="margin-top:25px;">
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-			<img src="/teacher/teach8.jpg">
-			<h3>Тихонова Анна Сергеевна</h3>
-			<h4>физика</h4>
+
+	<!--	Teachers row-->
+	<div class="row">
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img class="img-responsive img-rounded" src="/img/teachers/Zinder-s.jpg" alt="...">
+				<div class="caption">
+					<h2>Предмет: Английский язык</h2>
+					<h3>Анна Владимировна Зиндер</h3>
+					<p>Образование: ЛГУ филологический факультет.</p>
+					<p>Преподаватель высшей категории. В настоящее время преподаёт в Аничковом лицее и в гимназических классах школы №371.</p>
+					<p>Максимальный балл выпускников: 95</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-			<img src="/teacher/teach10.jpg">
-			<h3>Громова Наталия Владимировна</h3>
-			<h4>русский и литература</h4>
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img class="img-responsive img-rounded" src="/img/teachers/badrutdinova.jpg" alt="...">
+				<div class="caption">
+					<h2>Предмет: Английский язык</h2>
+					<h3>Венера Фаритовна Бадрутдинова</h3>
+					<p>УрГПУ факультет иностранных языков.
+						Имеет сертификаты CAE (CertificateinAdvancedEnglish — экзамен на Кембриджский сертификат продвинутого уровня), TKT (TeachingKnowledgeTest — экзамен на Кембриджский сертификат преподавателей английского языка как иностранного).</p>
+					<p>В настоящее время преподаёт в авторской инновационной школе «Унисон»</p>
+					<p>Максимальный балл выпускников: 100</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-			<img src="/teacher/teach11.jpg">
-			<h3>Демчук Денис Борисович</h3>
-			<h4>физика и математика</h4>
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img class="img-responsive img-rounded" src="/img/teachers/Muromzev1-s.jpg" alt="...">
+				<div class="caption">
+					<h2>Предмет: Физика</h2>
+					<h3>Олег Олегович Муромцев</h3>
+					<p>СПбГУ физический факультет.</p>
+					<p>Руководитель и научный консультант научных проектов учащихся в Аничковом лицее, физик-оптик, координатор Санкт-Петербургского отделения проекта «Широкополосное образование»,преподаватель и руководитель физического кружка в авторской инновационной школе «Унисон»</p>
+					<p>Максимальный балл выпускников: 89</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-			<img src="/teacher/teach12.jpg">
-			<h3>Тихонова Анна Сергеевна</h3>
-			<h4>физика</h4>
-		</div>
+
 	</div>
-	
+
+	<!--	Teachers row-->
+	<div class="row">
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img class="img-responsive img-rounded" src="/img/teachers/efremov.jpg" alt="...">
+				<div class="caption">
+					<h2>Предмет: Биология</h2>
+					<h3>Александр Михайлович Ефремов</h3>
+					<p>Образование: СПбГУ биологический факультет.</p>
+					<p>Преподаватель высшей категории, кандидат биологических наук. В настоящий момент преподаёт в СПбГУ и в авторской инновационной школе «Унисон». Ранее преподавал в Аничковом лицее. Научный сотрудник НИИ экспериментальной медицины. Автор научных публикаций. Создатель и ведущий научно-популярного подкаста «Биоразнообразие». </p>
+					<p>Максимальный балл выпускников: 98</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img class="img-responsive img-rounded" src="/img/teachers/Vlashenko.jpg" alt="...">
+				<div class="caption">
+					<h2>Предмет: Обществознание</h2>
+					<h3>Людмила Васильевна Влащенко</h3>
+					<p>Образование: ЛГПИ им. А. И. Герцена, исторический факультет</p>
+					<p>Преподаватель высшей категории. В настоящее время преподаёт в академической гимназии при СПбГУ. Эксперт ЕГЭ по обществознанию.</p>
+					<p>Максимальный балл выпускников: 100</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img class="img-responsive img-rounded" src="/img/teachers/Uljanov-s.jpg" alt="...">
+				<div class="caption">
+					<h2>Предмет: История</h2>
+					<h3>Анатолий Владимирович Ульянов</h3>
+					<p>Образование: РГПУ им. А.И. Герцена исторический факультет, СПбГУ философский факультет.</p>
+					<p>Преподаватель высшей категории. В настоящее время преподаёт в гимназических классах школы №371 и в Санкт-Петербургской классической гимназии №610. Ранее преподавал в Санкт-Петербургской северо-западной академии государственной службы.</p>
+					<p>Максимальный балл выпускников: 97</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!--	Teachers row-->
+	<div class="row">
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img class="img-responsive img-rounded" src="/img/teachers/vlasova.jpg" alt="...">
+				<div class="caption">
+					<h2>Предмет: Химия</h2>
+					<h3>Жанна Евгеньевна Власова</h3>
+					<p>Образование: ЛГУ, химический факультет</p>
+					<p>Преподаватель высшей категории, почётный работник общего образования РФ. В настоящее время преподаёт в центре экологического образования лицее №389. Эксперт ЕГЭ по химии. </p>
+					<p>Максимальный балл выпускников: 100</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img class="img-responsive img-rounded" src="/img/teachers/popov.jpg" alt="...">
+				<div class="caption">
+					<h2>Предмет: Биология</h2>
+					<h3>Василий Анатольевич Попов</h3>
+					<p>Образование: СПбГУ медицинский факультет</p>
+					<p>Преподаватель высшей категории, дипломированный преподаватель вуза. В настоящий момент сотрудник СПбГУ, преподаватель СПбГМУ им. ак. И.П.Павлова, научный сотрудник НИИ физиологии им. ак. Сеченова РАН. Автор 10 научных публикаций.</p>
+					<p>Максимальный балл выпускников: 96</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<img class="img-responsive img-rounded" src="/img/teachers/krilova.jpg" alt="...">
+				<div class="caption">
+					<h2>Предмет: Русский язык</h2>
+					<h3>Татьяна Генриховна Крылова</h3>
+					<p>Образование: ЛГПИ им. А.И. Герцена филологический факультет</p>
+					<p>Преподаватель высшей категории. Заслуженный учитель РФ. Региональный эксперт ЕГЭ по русскому языку и литературе. Член апелляционной комиссии ЕГЭ по русскому языку.</p>
+					<p>Максимальный балл выпускников: 100</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!--	Teachers row-->
+	<div class="row">
+
+		<div class="">
+			<div class="thumbnail row">
+				<img class="img-responsive img-rounded col-md-3 col-sm-3 col-xs-12" src="/img/teachers/zelepukina.jpg" alt="...">
+				<div class="caption col-md-9 col-sm-9 col-xs-12">
+					<h2>Предмет: География</h2>
+					<h3>Елена Сергеевна Зелепукина</h3>
+					<p>Образование: СПбГУ географический факультет</p>
+					<p>Преподаватель высшей категории. Кандидат географических наук. В настоящий момент преподаёт на факультете географии и геоэкологии СПбГУ, на подготовительных курсах в СПбГУ и в авторской инновационной школе «Унисон» </p>
+					<p>Максимальный балл выпускников: 96</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
 <?php include('../footer.php'); ?>

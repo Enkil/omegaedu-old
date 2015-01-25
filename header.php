@@ -1,14 +1,11 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css"/>
+	<link rel="stylesheet" href="/bower_components/components-font-awesome/css/font-awesome.min.css"/>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400,300&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
-	
 	<title>Омега | Образовательный проект | Развитие через обучение</title>
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -63,11 +60,13 @@
 <body> 
 	<div class="container" id="content">
 		<div class="row" style="margin-top:20px; margin-bottom:25px;">
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-				<a class="image" href="/"><img src="/img/logo_3.png" style="width:175px; margin-left:15px;" /></a>
+
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<a class="image" href="/"><img class="img-responsive" src="/img/logo_3.png" style="width:175px; margin-left:15px;" /></a>
 				<p style="font-weight:normal; font-size:13px; line-height:16px; margin-top:0px; margin-bottom:0px; margin-left:15px; color:#777;">Подготовка к вузам Москвы</p>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 				<div class="topmenuup">
 					<div><a target="_blank" href="http://s1.omegaedu.ru/index.php?utm_source=omegaedu">Курсы ЕГЭ / ГИА</a></div>
 					<div style="margin-left:45px;"><a <? if($activepage=='price') echo('class="active"'); ?> href="/price/">Цены</a></div>
@@ -80,9 +79,19 @@
 					<div style="margin-left:38px;"><a <? if($activepage=='contacts') echo('class="active"'); ?> href="/contacts/">Контакты</a></div>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
-				<p style="margin-top:16px; margin-bottom:0px; font-size:21px;">8 (495) 134 45 17</p>
-				<p style="margin-top:13px; margin-bottom:0px; font-size:15px;">Мы в соц. сетях:<a href="http://vk.com/omegaedu" target="_blank" style="font-size:28px; border-bottom:none; margin-left:5px;"><i class="fa fa-vk"></i></a><a href="http://youtube.com/channel/UCZmxeBd4XBfRcLooiW1nISw" target="_blank" style="font-size:28px; border-bottom:none; margin-left:5px;"><i class="fa fa-youtube"></i></a></p>
+
+			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+				<p class="col-lg-12 col-md-12 col-sm-6 col-xs-6" style="margin-top:16px; margin-bottom:0px; font-size:21px;">
+					8 (495) 134 45 17
+				</p>
+				<p class="col-lg-12 col-md-12 col-sm-6 col-xs-6" style="margin-top:13px; margin-bottom:0px; font-size:15px;">
+					Мы в соц. сетях:
+					<a href="http://vk.com/omegaedu" target="_blank" style="font-size:28px; border-bottom:none; margin-left:5px;">
+						<i class="fa fa-vk"></i></a><a href="http://youtube.com/channel/UCZmxeBd4XBfRcLooiW1nISw" target="_blank" style="font-size:28px; border-bottom:none; margin-left:5px;">
+						<i class="fa fa-youtube"></i>
+					</a>
+				</p>
 			</div>
+
 		</div>
 	
