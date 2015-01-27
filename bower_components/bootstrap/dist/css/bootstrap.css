@@ -6576,3 +6576,50 @@ button.close {
   display: flex;
   align-items: center;
 }
+.panel {
+  text-align: center;
+}
+
+.panel-custom{
+  border-color: #08C;
+}
+
+.panel-custom-optimum{
+  border-color: #06979E;
+}
+
+.btn-theme {
+  background-color: #08C;
+  color: #FFF;
+  border-color: #08C;
+}
+
+.btn-theme-optimum {
+  background-color: #06979E;
+  color: #FFF;
+  border-color: #06979E;
+}
+
+.btn-theme:hover {
+  border-color: #08C;
+  background-color: transparent;
+  color: #08C;
+  box-shadow: none;
+}
+
+.btn-theme-optimum:hover {
+  border-color: #06979E;
+  background-color: transparent;
+  color: #06979E;
+  box-shadow: none;
+}
+
+.panel-custom > .panel-heading {
+  background-color: #08C;
+  color: #FFF;
+}
+
+.panel-custom-optimum > .panel-heading {
+  background-color: #06979E;
+  color: #FFF;
+}

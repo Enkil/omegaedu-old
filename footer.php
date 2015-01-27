@@ -1,4 +1,4 @@
-    <div style="margin-top:25px; border:2px solid #08c; border-radius:15px; text-align:center; padding-bottom:14px;">
+    <div style="margin-top:25px; border:2px solid #08c; border-radius:15px; text-align:center; padding-bottom:14px;" id="form">
         <i class="fa fa-envelope" style="position:relative; top:-20px; padding:0 12px; color:#08c; background-color:#fff; font-size:36px;"></i>
         <p style="margin-top:-12px;">Оставьте заявку и сделайте первый шаг к успешной сдаче ЕГЭ:</p>
         <form class="form-inline" style="margin-bottom:10px;">
