@@ -4879,7 +4879,7 @@ a.badge:focus {
 }
 .thumbnail {
   display: block;
-  padding: 4px;
+  padding: 10px;
   margin-bottom: 20px;
   line-height: 1.42857143;
   background-color: #fff;
@@ -6622,4 +6622,8 @@ button.close {
 .panel-custom-optimum > .panel-heading {
   background-color: #06979E;
   color: #FFF;
+}
+
+.voice-hover:hover{
+  color: #000;
 }

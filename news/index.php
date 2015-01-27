@@ -10,7 +10,7 @@
 
 
     <!-- News list -->
-    <div class="row top-margin vertical-align">
+    <div class="row top-margin">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center-block text-center">
             <img class="img-responsive img-rounded text-center center-block" src="/img/news/news-1.jpg" alt=""/>
         </div>
@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <div class="row top-margin vertical-align">
+    <div class="row top-margin">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center-block text-center">
             <img class="img-responsive img-rounded text-center center-block" src="/img/news/news-2.jpg" alt=""/>
         </div>
@@ -36,7 +36,7 @@
         </div>
     </div>
 
-    <div class="row top-margin vertical-align">
+    <div class="row top-margin">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center-block text-center">
             <img class="img-responsive img-rounded text-center center-block" src="/img/news/news-3.jpg" alt=""/>
         </div>
@@ -50,7 +50,7 @@
         </div>
     </div>
 
-    <div class="row top-margin vertical-align">
+    <div class="row top-margin">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center-block text-center">
             <img class="img-responsive img-rounded text-center center-block" src="/img/news/news-4.jpg" alt=""/>
         </div>
@@ -63,7 +63,7 @@
         </div>
     </div>
 
-    <div class="row top-margin vertical-align">
+    <div class="row top-margin">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center-block text-center">
             <img class="img-responsive img-rounded text-center center-block" src="/img/news/news-5.jpg" alt=""/>
         </div>
@@ -76,7 +76,7 @@
         </div>
     </div>
 
-    <div class="row top-margin vertical-align">
+    <div class="row top-margin">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center-block text-center">
             <img class="img-responsive img-rounded text-center center-block" src="/img/news/news-6.jpg" alt=""/>
         </div>
@@ -89,7 +89,7 @@
         </div>
     </div>
 
-    <div class="row top-margin vertical-align">
+    <div class="row top-margin">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center-block text-center">
             <img class="img-responsive img-rounded text-center center-block" src="/img/news/news-6.jpg" alt=""/>
         </div>
@@ -102,7 +102,7 @@
         </div>
     </div>
 
-    <div class="row top-margin vertical-align">
+    <div class="row top-margin">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center-block text-center">
             <img class="img-responsive img-rounded text-center center-block" src="/img/news/news-8.jpg" alt=""/>
         </div>

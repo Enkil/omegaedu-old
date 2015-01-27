@@ -34,7 +34,7 @@
                 Баллы ЕГЭ: 96, 95, 98<br>
                 Поступила в МФТИ
             </p>
-            <p style="text-align:center;"><a href="#">Читать отзыв</a></p>
+            <p style="text-align:center;"><a href="/voices/index.php">Читать все отзывы</a></p>
         </div>
 
     </div>
