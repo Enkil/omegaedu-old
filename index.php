@@ -1,6 +1,6 @@
     <?php include('header.php'); ?>
 
-    <center><a class="image" href=""><img class="img-responsive" src="img/om_baner_2.jpg"></a></center>
+    <center><a class="image" href=""><img class="img-responsive" src="img/omega-index.jpg"></a></center>
    
     <div class="row" style="margin-top:25px;">
 
