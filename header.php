@@ -70,14 +70,14 @@
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 				<div class="topmenuup">
 					<div><a target="_blank" href="http://s1.omegaedu.ru/index.php?utm_source=omegaedu">Курсы ЕГЭ / ГИА</a></div>
-					<div style="margin-left:45px;"><a <? if($activepage=='price') echo('class="active"'); ?> href="/price/">Цены</a></div>
-					<div style="margin-left:45px;"><a <? if($activepage=='franch') echo('class="active"'); ?> href="omega.pdf">Франчайзинг</a></div>
+					<div style="margin-left:45px;"><a <? if($activepage=='price') echo('class="active"'); ?> href="./price/">Цены</a></div>
+					<div style="margin-left:45px;"><a <? if($activepage=='franch') echo('class="active"'); ?> href="./omega.pdf">Франчайзинг</a></div>
 				</div>
 				<div class="topmenudown">
 					<div><a <? if($activepage=='news') echo('class="active"'); ?> href="/news/">Новости</a></div>
-					<div style="margin-left:38px;"><a <? if($activepage=='timetable') echo('class="active"'); ?> href="/timetable/">Расписание</a></div>
-					<div style="margin-left:38px;"><a <? if($activepage=='teachers') echo('class="active"'); ?> href="/teachers/">Преподаватели</a></div>
-					<div style="margin-left:38px;"><a <? if($activepage=='contacts') echo('class="active"'); ?> href="/contacts/">Контакты</a></div>
+					<div style="margin-left:38px;"><a <? if($activepage=='timetable') echo('class="active"'); ?> href="./timetable/">Расписание</a></div>
+					<div style="margin-left:38px;"><a <? if($activepage=='teachers') echo('class="active"'); ?> href="./teachers/">Преподаватели</a></div>
+					<div style="margin-left:38px;"><a <? if($activepage=='contacts') echo('class="active"'); ?> href="./contacts/">Контакты</a></div>
 				</div>
 			</div>
 

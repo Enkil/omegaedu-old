@@ -23,7 +23,7 @@
                 Теория для подготовки к ЕГЭ<br>
                 Длительность: 56 минут
             </p>
-            <p style="text-align:center;"><a href="">Смотреть видео</a></p>
+            <p style="text-align:center;"><a href="http://youtube.com/channel/UCZmxeBd4XBfRcLooiW1nISw">Смотреть видео</a></p>
         </div>
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
@@ -34,7 +34,7 @@
                 Баллы ЕГЭ: 96, 95, 98<br>
                 Поступила в МФТИ
             </p>
-            <p style="text-align:center;"><a href="/voices/index.php">Читать все отзывы</a></p>
+            <p style="text-align:center;"><a href="./voices/index.php">Читать все отзывы</a></p>
         </div>
 
     </div>
