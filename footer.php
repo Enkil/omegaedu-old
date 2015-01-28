@@ -22,7 +22,7 @@
 <div class="row" style="margin-top:20px; margin-bottom:32px;">
 
     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-        <img src="/img/logo_bottom.png" style="width:68px; margin-left:15px; margin-top:3px; vertical-align:top;" />
+        <img src="./img/logo_bottom.png" style="width:68px; margin-left:15px; margin-top:3px; vertical-align:top;" />
         <p style="display:inline-block; font-weight:normal; font-size:14px; line-height:18px; margin-top:14px; margin-bottom:0px; margin-left:15px; color:#555;">Развитие<br>через<br>обучение</p>
     </div>
 
