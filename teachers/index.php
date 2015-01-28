@@ -37,7 +37,7 @@
 			</div>
 		</div>
 
-		<div class="col-sm-6 col-md-4">
+		<div class="col-sm-12 col-md-4">
 			<div class="thumbnail">
 				<img class="img-responsive img-rounded" src="/img/teachers/Tushnova-s.jpg" alt="...">
 				<div class="caption">
@@ -81,7 +81,7 @@
 			</div>
 		</div>
 
-		<div class="col-sm-6 col-md-4">
+		<div class="col-sm-12 col-md-4">
 			<div class="thumbnail">
 				<img class="img-responsive img-rounded" src="/img/teachers/orlov.jpg" alt="...">
 				<div class="caption">
@@ -126,7 +126,7 @@
 			</div>
 		</div>
 
-		<div class="col-sm-6 col-md-4">
+		<div class="col-sm-12 col-md-4">
 			<div class="thumbnail">
 				<img class="img-responsive img-rounded" src="/img/teachers/Muromzev1-s.jpg" alt="...">
 				<div class="caption">
@@ -170,7 +170,7 @@
 			</div>
 		</div>
 
-		<div class="col-sm-6 col-md-4">
+		<div class="col-sm-12 col-md-4">
 			<div class="thumbnail">
 				<img class="img-responsive img-rounded" src="/img/teachers/Uljanov-s.jpg" alt="...">
 				<div class="caption">
@@ -214,7 +214,7 @@
 			</div>
 		</div>
 
-		<div class="col-sm-6 col-md-4">
+		<div class="col-sm-12 col-md-4">
 			<div class="thumbnail">
 				<img class="img-responsive img-rounded" src="/img/teachers/krilova.jpg" alt="...">
 				<div class="caption">
