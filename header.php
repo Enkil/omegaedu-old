@@ -9,6 +9,7 @@
 	<title>Омега | Образовательный проект | Развитие через обучение</title>
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="/img/favicon.png"/>
 	
 	<meta property="og:title" content="Омега | Образовательный проект | Развитие через обучение"/>
