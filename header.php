@@ -71,7 +71,7 @@
 				<div class="topmenuup">
 					<div><a target="_blank" href="http://s1.omegaedu.ru/index.php?utm_source=omegaedu">Курсы ЕГЭ / ГИА</a></div>
 					<div style="margin-left:45px;"><a <? if($activepage=='price') echo('class="active"'); ?> href="/price/">Цены</a></div>
-					<div style="margin-left:45px;"><a <? if($activepage=='franch') echo('class="active"'); ?> href="/omega.pdf">Франчайзинг</a></div>
+					<div style="margin-left:45px;"><a <? if($activepage=='franch') echo('class="active"'); ?> href="/franch/">Франчайзинг</a></div>
 				</div>
 				<div class="topmenudown">
 					<div><a <? if($activepage=='news') echo('class="active"'); ?> href="/news/">Новости</a></div>

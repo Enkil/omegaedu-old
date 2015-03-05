@@ -4,10 +4,9 @@
 	<meta charset="UTF-8" />
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
-	<title>Omega</title>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" type="text/css" href="css/fonts.css" />
+	<title>Учебный центр Omega</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="fonts.css" />
 </head>
 <body>
 	<div class="wrapper">
@@ -77,7 +76,7 @@
 					<div class="biss_plan biss_float">
 						<img class="check" src="img/check.png" alt="" />
 						<p class="biss_imgp"><img class="img-biss" src="img/biss-plan3.png" alt="" /></p>
-						<p class="biss_p">Сайт с «высококон&shy;вер&shy;тируемым лендин&shy;гом» - целевая (рек&shy;ламная) страница сайта выполнена с учетом психологии потреби&shy;те&shy;ля и позво&shy;ляет конвертировать обычные переходы на сайт в <span>реальных клиентов!</span></p>
+						<p class="biss_p">Сайт с «высококон&shy;вер&shy;тируемым лендин&shy;гом» - целевая (рек&shy;лам&shy;ная) страница сайта выполнена с учетом психологии потреби&shy;те&shy;ля и позво&shy;ляет конвертировать обычные переходы на сайт в <span>реальных клиентов!</span></p>
 					</div>
 				<!-- 4 -->
 					<div class="biss_plan">
@@ -108,7 +107,7 @@
 
 		<div class="block4">
 			<div class="left">
-				<h2>Что в итоге?</h2>
+				<h2>Что<br />в итоге?</h2>
 				<p class="logo_p"><img class="logo_mini" src="img/logo-mini.jpg" alt="" /></p>
 			</div>
 			<div class="right">
@@ -120,7 +119,7 @@
 					<p class="shelves_p">Вы&nbsp;получаете готовые рекламные материалы, <nobr>медиа-план</nobr> созданный для <b>ВАШЕГО</b> города и, главное, <b>РАБОТАЮЩИЙ</b> сайт, с&nbsp;грамотно настроенной страницей продаж курсов.</p>
 				</div>
 				<div class="shelves_block">
-					<p class="shelves_p">Вы&nbsp;получаете систему учета и управления клиентами, находящуюся в&nbsp;облаке и&nbsp;позволяющую контролировать <b>ВАШ</b> бизнес в&nbsp;любой точке мира или страны.</p>
+					<p class="shelves_p none_b">Вы&nbsp;получаете систему учета и управления клиентами, находящуюся в&nbsp;облаке и&nbsp;позволяющую контролировать <b>ВАШ</b> бизнес в&nbsp;любой точке мира или страны.</p>
 				</div>
 				<p class="basis">Мы&nbsp;существуем 2 года, но&nbsp;за&nbsp;это время разработали уникальный формат, необходимый для&nbsp;старта. Мы&nbsp;делимся опытом и&nbsp;мы&nbsp;<b>гарантируем,</b> что открытие учебного центра по&nbsp;подготовке к&nbsp;ЕГЭ и&nbsp;ГИА это <b>лучшая инвестиция в&nbsp;свое будущее и&nbsp;будущее выпускников!</b></p>
 			</div>

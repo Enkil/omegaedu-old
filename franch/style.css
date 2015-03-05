@@ -21,9 +21,10 @@ h2 {
 	font-weight: normal;
 	text-transform: uppercase;
 	text-align: left;
+	line-height: 1.1;
 }
 h3 {
-	font-size: 32px;
+	font-size: 34px;
 	font-weight: normal;
 	text-transform: uppercase;
 	text-align: left;
@@ -39,6 +40,7 @@ h4 {
 	/* BLOCK1 */
 .block1 {
 	overflow: hidden;
+	height: 665px;
 }
 .block1 .left {
 	width: 27%;
@@ -54,8 +56,9 @@ h4 {
 	max-width: 300px;
 }
 .quote {
-	padding: 150px 30px 0 25px;
-	max-width: 350px;
+	margin: 0 auto;
+	padding: 115px 25px 0 25px;
+	max-width: 284px;
 	color: #e74b3c;
 	text-transform: uppercase;
 	font-size: 24px;
@@ -63,18 +66,16 @@ h4 {
 }
 .block1 .right {
 	width: 73%;
-	height: 100%;
 	padding-top: 50px;
 	float: right;
 	background: #1b75bb;
 }
 .scheme {
-	width: 600px;
-	height: 700px;
-    margin: 0 auto;
+	width: 561px;
+	height: 566px;
+	margin: 0 auto;
 	padding-bottom: 50px;
-    background: url(/img/scheme.png) no-repeat;
-    background-size: 600px;
+	background: url(img/scheme.png) no-repeat;
 }
 .ege {
 	float: right;
@@ -89,6 +90,7 @@ h4 {
 	/* BLOCK2 */
 .block2 {
 	overflow: hidden;
+	height: 717px;
 }
 .block2 .left {
 	float: left;
@@ -96,9 +98,10 @@ h4 {
 	background: #1b75bb;
 }
 .block2 .left h4 {
-	max-width: 350px;
+	margin: 0 auto;
+	max-width: 284px;
 	color: #fff;
-	padding: 50px 30px 330px 25px;
+	padding: 50px 25px 304px 25px;
 }
 .logo_mini {
 	width: 130px;
@@ -111,11 +114,12 @@ h4 {
 	background: #fff;
 }
 .all_items {
-	padding-top: 50px;
-	margin: 0 10%;
+	margin: 0 auto;
+	padding: 100px 70px 0;
+	max-width: 839px;
 }
 .items {
-	width: 100px;
+	width: 90px;
 	padding-right: 30px;
 	float: left;
 }
@@ -132,6 +136,7 @@ h4 {
 	text-align: left;
 	display: table-cell;
     vertical-align: middle;
+    line-height: 1.2;
 }
 .item1 span,
 .item2 span,
@@ -141,14 +146,14 @@ h4 {
 .item1,
 .item3 {
 	height: 100px;
-	padding-bottom: 55px;
+	padding-bottom: 32px;
 }
 .item2 {
 	height: 124px;
-	padding-bottom: 84px;
+	padding-bottom: 66px;
 }
 .basis {
-	padding: 10px 0 0 15px;
+	padding: 20px 0 0 15px;
 	text-transform: uppercase;
 	font-size: 24px;
 	text-align: left;
@@ -210,6 +215,7 @@ h4 {
 	/* BLOCK3 */
 .block3 {
 	overflow: hidden;
+	
 }
 .block3 .right {
 	float: right;
@@ -217,9 +223,10 @@ h4 {
 	background: #1b75bb;
 }
 .block3 h4 {
-	max-width: 350px;
+	margin: 0 auto;
+	padding: 50px 25px 402px 25px;
+	max-width: 284px;
 	color: #fff;
-	padding: 50px 30px 600px 25px;
 }
 
 .block3 .left {
@@ -230,7 +237,7 @@ h4 {
 .biss_plans {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 30px 0% 30px 2.5%;
+	padding: 30px 0% 50px 2.5%;
 	overflow: hidden;
 }
 .biss_float {
@@ -240,16 +247,16 @@ h4 {
 	float: left;
 	display: inline-block;
 	width: 30%;
-	height: 420px;
+	height: 395px;
 	min-width: 214px;
 	max-width: 400px;
 	margin: 0 auto;
-	margin: 20px 1% 10px;
+	margin: 20px 1% 0;
 	border: 1px solid #ccc;
 }
 .check {
 	width: 25px;
-	padding: 20px 15px;
+	padding: 20px 10%;
 	text-align: left !important;
 }
 .biss_imgp {
@@ -261,6 +268,7 @@ h4 {
 }
 .biss_p {
 	padding: 20px 15px 0;
+	line-height: 1.2;
 }
 .biss_p span {
 	color: #e74b3c;
@@ -279,15 +287,16 @@ h4 {
 	background: #1b75bb;
 }
 .block4 h2 {
-	max-width: 350px;
+	margin: 0 auto;
+	padding: 50px 25px 466px 25px;
+	max-width: 330px;
 	color: #fff;
-	padding: 50px 30px 600px 25px;
 }
 
 .block4 .right {
 	float: right;
 	width: 73%;
-	padding-top: 120px;
+	padding-top: 100px;
 	background: #fff;
 }
 .shelves_block {
@@ -295,21 +304,24 @@ h4 {
 }
 .shelves_img {
 	float: left;
-	width: 120px;
-	margin-left: -40px;
-	padding-right: 40px;
+	width: 100px;
+	margin-left: -25px;
+	padding-right: 30px;
 }
 .shelves_p {
 	display: table-cell;
 	vertical-align: middle;
 	max-width: 1200px;
-	margin-top:  5px;
-	padding-bottom: 97px;
-	height: 70px;
+	padding-right: 30px;
+	padding-bottom: 5.5%;
+	height: 68px;
+	font-size: 24px;
+}
+.none_b {
+	padding-bottom: 40px;
 }
 .block4 .basis {
-	padding-left: 120px;
-	padding-right: 50px;
+	padding: 0 50px 50px 104px;
 }
 
 
@@ -322,18 +334,23 @@ h4 {
 	width: 27%;
 }
 .menu {
-	padding: 50px 0 0 25px;
+	padding: 50px 25px 0;
 	height: 180px;
 	background: #1b75bb;
 }
 .menu h4 {
-	color: #fff;
 	padding-bottom: 20px; 
+	max-width: 284px;
+	color: #fff;
+}
+.item_programm {
+	max-width: 284px;
 }
 .item_programm span {
 	line-height: 2;
 	font-weight: bold;
 	color: #609fd0;
+	line-height: 1.6;
 }
 .item_programm .active {
 	color: #fff;
@@ -410,7 +427,7 @@ h4 {
 
 .right_new {
 	width: 27%;
-	height: 570px;
+	height: 563px;
 	padding-top: 50px;
 	float: right;
 	background: #1b75bb;
@@ -429,7 +446,7 @@ h4 {
 .many {
 	padding-bottom: 30px;
 	color: #fff;
-	font-size: 26px;
+	font-size: 29px;
 	text-align: center;
 }
 .agitation {
@@ -469,9 +486,8 @@ h4 {
 	width: 71%;
 }
 .block6 .right_new {
-	padding-left: 10px;
-	padding-right: 10px;
 	background: #e92d41;
+	height: 583px;
 }
 .block6 .many {
 	margin-bottom: 50px;
@@ -516,7 +532,7 @@ h4 {
 	color: #5b5acc;
 }
 .block7 .right_new {
-	height: 635px;
+	height: 620px;
 	background: #5b5acc;
 }
 .block7 .basis {
@@ -543,6 +559,7 @@ h4 {
 	/* BLOCK8 */
 .block8 {
 	overflow: hidden;
+	height: 627px;
 }
 .block8 .left {
 	width: 27%;
@@ -567,16 +584,16 @@ h4 {
 	padding-bottom: 30px;
 }
 .contacts {
-	padding: 10px 0 50px 7%;
+	padding: 10px 0 66px 8%;
 	font-size: 24px;
 	color: #fff;
 	text-transform: uppercase;
 }
 .block8 .right img {
-	width: 115px;
+	width: 106px;
 }
 .contacts_img {
-	margin: 0 0 30px 7%;
+	margin: 0 0 30px 8%;
 	height: 115px;
 	float: left;
 }
