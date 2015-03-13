@@ -48,6 +48,7 @@ $mail = new PHPMailer;
 //$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 //$mail->Port = 587;                                    // TCP port to connect to
 
+$mail->CharSet = 'UTF-8';
 $mail->From = $adminEmail;
 $mail->FromName = 'OmegaEDU Franch';
 $mail->addAddress($managerEmail, 'OmegaEDU Franch Manager');     // Add a recipient, Name is optional
