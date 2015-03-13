@@ -95,7 +95,7 @@
             </div>
 
             <p style="font-size:21px; line-height: 20px; margin-bottom: 5px; margin-top: 5px;">
-                8 (4212) 60-70-73
+                +7 (495) 134 45 17
             </p>
 
             <p style="font-size:15px; line-height: 20px;">
