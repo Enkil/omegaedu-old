@@ -125,17 +125,17 @@
 			</div>
 		</div>
 
-		<div class="block_form">
-			<div class="forms">
-			<p class="application">Откройте свой бизнес вместе с нами,<br />занимайтесь любимым делом и получайте высокий доход!</p>
-				<form method="" action="">
-					<p><label><input class="name" type="text" name="name" placeholder="Имя" required=""></label></p>
-					<p><label><input class="phone" type="text" name="phone" data-masked-input="+7 (999) 999-99-99" required="" placeholder="Телефон" autocomplete="on"></label></p>
-					<p><label><input class="email" type="email" name="email" placeholder="E-mail" required="" autocomplete="on"></label></p>
-					<p><input class="submit" type="submit" value="Оставить заявку"></p>
-				</form>
-			</div>
-		</div>
+        <div class="block_form">
+            <div class="forms">
+                <p class="application">Откройте свой бизнес вместе с нами,<br />занимайтесь любимым делом и получайте высокий доход!</p>
+                <form method="POST" action="formAction.php">
+                    <p><label><input class="name" type="text" name="name" placeholder="Имя" required="" value="<?=(isset($_POST['name']) ? $_POST['name'] : 'Имя') ?>"></label></p>
+                    <p><label><input class="phone" type="text" name="phone" data-masked-input="+7 (999) 999-99-99" required="" placeholder="Телефон" autocomplete="on" value="<?=(isset($_POST['phone']) ? $_POST['phone'] : 'Телефон') ?>"></label></p>
+                    <p><label><input class="email" type="email" name="email" placeholder="E-mail" required="" autocomplete="on" value="<?=(isset($_POST['email']) ? $_POST['email'] : 'E-mail') ?>"></label></p>
+                    <p><input class="submit" type="submit" value="Оставить заявку"></p>
+                </form>
+            </div>
+        </div>
 
 		<div class="block5">
 			<div class="left">
@@ -335,17 +335,17 @@
 			</div>
 		</div>
 
-		<div class="block_form">
-			<div class="forms">
-			<p class="application">Откройте свой бизнес вместе с нами,<br />занимайтесь любимым делом и получайте высокий доход!</p>
-				<form method="" action="">
-					<p><label><input class="name" type="text" name="name" placeholder="Имя" required=""></label></p>
-					<p><label><input class="phone" type="text" name="phone" data-masked-input="+7 (999) 999-99-99" required="" placeholder="Телефон" autocomplete="on"></label></p>
-					<p><label><input class="email" type="email" name="email" placeholder="E-mail" required="" autocomplete="on"></label></p>
-					<p><input class="submit" type="submit" value="Оставить заявку"></p>
-				</form>
-			</div>
-		</div>
+        <div class="block_form">
+            <div class="forms">
+                <p class="application">Откройте свой бизнес вместе с нами,<br />занимайтесь любимым делом и получайте высокий доход!</p>
+                <form method="POST" action="formAction.php">
+                    <p><label><input class="name" type="text" name="name" placeholder="Имя" required="" value="<?=(isset($_POST['name']) ? $_POST['name'] : 'Имя') ?>"></label></p>
+                    <p><label><input class="phone" type="text" name="phone" data-masked-input="+7 (999) 999-99-99" required="" placeholder="Телефон" autocomplete="on" value="<?=(isset($_POST['phone']) ? $_POST['phone'] : 'Телефон') ?>"></label></p>
+                    <p><label><input class="email" type="email" name="email" placeholder="E-mail" required="" autocomplete="on" value="<?=(isset($_POST['email']) ? $_POST['email'] : 'E-mail') ?>"></label></p>
+                    <p><input class="submit" type="submit" value="Оставить заявку"></p>
+                </form>
+            </div>
+        </div>
 
 		<div class="block8">
 			<div class="left">
