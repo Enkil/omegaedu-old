@@ -34,7 +34,7 @@ $adminEmail = 'no-reply@omegaedu.ru';
 $replyEmail = 'timohin.i@gmail.com';
 $managerEmail = 'timohin.i@gmail.com';
 
-require 'PHPMailer/PHPMailerAutoload.php';
+require './PHPMailer/PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
 
