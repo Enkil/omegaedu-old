@@ -5,5 +5,6 @@ ini_set("display_startup_errors", 1);
 
 
 $siteName = 'OmegaEDU';
-$adminEmail = 'tia@net-simple.ru';
+$adminEmail = 'no-reply@omegaedu.ru';
+$replyEmail = 'timohin.i@gmail.com';
 $managerEmail = 'timohin.i@gmail.com';

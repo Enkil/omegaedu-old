@@ -15,7 +15,7 @@ $message =
 $message = wordwrap($message, 70, "\r\n");
 $headers =
     'From:' . $adminEmail . "\r\n" .
-    'Reply-To:' . $adminEmail . "\r\n" .
+    'Reply-To:' . $replyEmail . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 if  (mail($to, $subject, $message, $headers)) {
