@@ -32,7 +32,7 @@ ini_set("display_startup_errors", 1);
 $siteName = 'OmegaEDU';
 $adminEmail = 'no-reply@omegaedu.ru';
 $replyEmail = 'no-reply@omegaedu.ru';
-$managerEmail = 'timohin.i@gmail.com';
+$managerEmail = 'timohin.i@gmail.com,omegaedu@gmail.com';
 
 require './PHPMailer/PHPMailerAutoload.php';
 
