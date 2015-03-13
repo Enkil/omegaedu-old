@@ -1,29 +1,29 @@
 <?php
 
-echo
-    htmlspecialchars($_POST['name']) . "\r\n" .
-    htmlspecialchars($_POST['phone']) . "\r\n" .
-    htmlspecialchars($_POST['email']);
-
-$to      = $managerEmail;
-$subject = 'OmegaEDU | Новая заявка на франшизу';
-$message =
-    htmlspecialchars($_POST['name']) . "\r\n" .
-    htmlspecialchars($_POST['phone']) . "\r\n" .
-    htmlspecialchars($_POST['email']);
-$message = wordwrap($message, 70, "\r\n");
-$headers = "MIME-Version: 1.0" . "\r\n";
-$headers .= "Content-type: text/html; charset=UTF-8" . "\r\n";
-$headers =
-    'From:' . $adminEmail . "\r\n" .
-    'Reply-To:' . $replyEmail . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
-
-if  (mail($to, $subject, $message, $headers)) {
-    echo '<br/>' . 'Send';
-} else {
-    echo 'Sending error';
-};
+//echo
+//    htmlspecialchars($_POST['name']) . "\r\n" .
+//    htmlspecialchars($_POST['phone']) . "\r\n" .
+//    htmlspecialchars($_POST['email']);
+//
+//$to      = $managerEmail;
+//$subject = 'OmegaEDU | Новая заявка на франшизу';
+//$message =
+//    htmlspecialchars($_POST['name']) . "\r\n" .
+//    htmlspecialchars($_POST['phone']) . "\r\n" .
+//    htmlspecialchars($_POST['email']);
+//$message = wordwrap($message, 70, "\r\n");
+//$headers = "MIME-Version: 1.0" . "\r\n";
+//$headers .= "Content-type: text/html; charset=UTF-8" . "\r\n";
+//$headers =
+//    'From:' . $adminEmail . "\r\n" .
+//    'Reply-To:' . $replyEmail . "\r\n" .
+//    'X-Mailer: PHP/' . phpversion();
+//
+//if  (mail($to, $subject, $message, $headers)) {
+//    echo '<br/>' . 'Send';
+//} else {
+//    echo 'Sending error';
+//};
 
 $siteName = 'OmegaEDU';
 $adminEmail = 'no-reply@omegaedu.ru';
@@ -32,29 +32,42 @@ $managerEmail = 'timohin.i@gmail.com';
 
 require 'PHPMailer/PHPMailerAutoload.php';
 
-//Create a new PHPMailer instance
 $mail = new PHPMailer;
-//Set who the message is to be sent from
-$mail->setFrom($adminEmail, 'First Last');
-//Set an alternative reply-to address
-$mail->addReplyTo($replyEmail, 'First Last');
-//Set who the message is to be sent to
-$mail->addAddress($managerEmail, 'OmegaEDU Franchize Manager');
-//Set the subject line
-$mail->Subject = 'PHPMailer mail() test';
-//Read an HTML message body from an external file, convert referenced images to embedded,
-//convert HTML into a basic plain-text alternative body
-$mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));
-//Replace the plain text body with one created manually
-$mail->AltBody = 'This is a plain-text message body';
-//Attach an image file
-$mail->addAttachment('images/phpmailer_mini.png');
 
-//send the message, check for errors
-if (!$mail->send()) {
-    echo "Mailer Error: " . $mail->ErrorInfo;
+//$mail->SMTPDebug = 3;                               // Enable verbose debug output
+
+//$mail->isSMTP();                                      // Set mailer to use SMTP
+//$mail->Host = 'smtp1.example.com;smtp2.example.com';  // Specify main and backup SMTP servers
+//$mail->SMTPAuth = true;                               // Enable SMTP authentication
+//$mail->Username = 'user@example.com';                 // SMTP username
+//$mail->Password = 'secret';                           // SMTP password
+//$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+//$mail->Port = 587;                                    // TCP port to connect to
+
+$mail->From = $adminEmail;
+$mail->FromName = 'OmegaEDU Franch';
+$mail->addAddress($managerEmail, 'OmegaEDU Franch Manager');     // Add a recipient, Name is optional
+$mail->addReplyTo($replyEmail, 'No-Reply');
+//$mail->addCC('cc@example.com');
+//$mail->addBCC('bcc@example.com');
+
+//$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+//$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+//$mail->isHTML(true);                                  // Set email format to HTML
+
+$mail->Subject = 'OmegaEDU | Новая заявка на франшизу';
+//$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+$mail->Body =
+    htmlspecialchars($_POST['name']) . "\r\n" .
+    htmlspecialchars($_POST['phone']) . "\r\n" .
+    htmlspecialchars($_POST['email']);
+//$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+if(!$mail->send()) {
+    echo 'Message could not be sent.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
-    echo "Message sent!";
+    echo 'Message has been sent';
 }
 
 header("Location: ".$_SERVER['HTTP_REFERER']);
