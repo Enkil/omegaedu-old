@@ -91,6 +91,7 @@
                 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="http://omegaedu.ru">Москва</a></li>
                     <li role="presentation"><a role="menuitem" tabindex="-1" href="http://khv.omegaedu.ru">Хабаровск</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="http://kzn.omegaedu.ru">Казань</a></li>
                 </ul>
             </div>
 
